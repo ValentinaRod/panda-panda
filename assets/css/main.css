@@ -1,0 +1,79 @@
+body{
+  background:url('../img/fondo2.jpg') no-repeat;
+  background-position: right;
+}
+
+/*Estilos menu*/
+header{
+  background-color: #000;
+}
+
+li{
+  display: inline-block;
+  margin: 0 30px;
+  padding: 20px;
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+/*Imagenes*/
+#fotos{
+  position: relative;
+  left: 35px;
+  margin-left: 80px;
+}
+.img{
+  display: inline-block;
+}
+
+img{
+  width: 200px;
+  height:150px;
+  margin: 20px;
+  border: 3px solid white;
+}
+
+span{
+  position:absolute;
+  padding:30px;
+  color: #fff;
+  font-size: 25px;
+}
+
+
+/*Botones*/
+#botones{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.btn{
+  display: inline-block;
+  width: 338px;
+  padding: 10px 100px;
+  text-align: center;
+  color: white;
+  /* margin-left: 28px; */
+  background-color: #ca3c25;
+}
+
+/*Columnas texto*/
+#textColumn{
+  margin: 80px;
+}
+
+.text{
+  width: 500px;
+  display: inline-block;
+  color: #000;
+  text-align: justify;
+  margin-left: 20px;
+}
